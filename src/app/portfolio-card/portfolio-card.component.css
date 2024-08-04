@@ -1,0 +1,22 @@
+.card {
+  height: 70%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  color: #fdfbfb;
+  width: 70%;
+  align-items: center;
+  background-color: #fdfbfb;
+  border: 2px solid #fdfbfb;
+}
+
+.card:hover {
+  height: 80%;
+  font-size: 35px;
+  box-shadow: 4px 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.25s ease-in;
+}

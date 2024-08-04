@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="info row text-white p-5">
+    <h4 class="name">{{ name }}</h4>
+    <p class="description">{{ description }}</p>
+    <a class="btn text-white border-white" [href]="contactUrl">Contact Me</a>
+  </div>
+  <div class="container about-me row p-5 mt-5">
+    <div class="row">
+      <h3 class="col-4">About Me</h3>
+      <div class="col-8">
+        <p class="about-me-description">
+          {{ aboutMeDescription }}
+        </p>
+        <a class="btn row download-btn text-white" [href]="resumeUrl">
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
